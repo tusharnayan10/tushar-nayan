@@ -62,14 +62,15 @@ document.onkeydown = function(e) {
   }
 }
 
+// Website Title Change
 document.addEventListener('visibilitychange',
-function(){
-    if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Jigar Sable";
-        $("#favicon").attr("href","/assets/images/favicon.png");
-    }
-    else {
-        document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href","/assets/images/favhand.png");
-    }
-});
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Tushar Nayan";
+            $("#favicon").attr("href", "../assets/images/favicon.png");
+        }
+        else {
+            document.title = "Tushar Nayan Portfolio";
+            $("#favicon").attr("href", "../assets/images/favicon.png");
+        }
+    });
