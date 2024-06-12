@@ -1,7 +1,7 @@
 [
   {
     "name": "Text Extractor: Smart Fill - Machine Learning Framework",
-    "desc": "Designed a Machine Learning framework that uses the OCR technique to extract text from documents and autofill web application forms using powerful tools like Azure, Dot Net, RESTful API, SQL, and React",
+    "desc": ":Text Extractor: Smart Fill - Machine Learning Framework: Designed a Machine Learning framework that uses the OCR technique to extract text from documents and autofill web application forms using powerful tools like Azure, Dot Net, RESTful API, SQL, and React",
     "image": "notystackandroid",
     "category": "android",
     "links": {
@@ -10,8 +10,8 @@
     }
   },
   {
-    "name": "Intrusion Detection System on The Internet of Vehicles",
-    "desc": "Developed an IDS device using ML algorithms (XGBoost, AdaBoost, Gradient Boost, LightGBM, CatBoost",
+    "name": "IDS on the IoV's",
+    "desc": "IDS on The Internet of Vehicles: Developed an IDS device using ML algorithms (XGBoost, AdaBoost, Gradient Boost, LightGBM, CatBoost",
     "image": "sppuprepandroid",
     "category": "android",
     "links": {
@@ -20,8 +20,8 @@
     }
   },
   {
-    "name": "Voice Over Internet Protocol (VoIP) Application",
-    "desc": " Developed a web app using the MERN stack that allowed university professors to connect, schedule meetings, and manage student records.",
+    "name": "VoIP Application",
+    "desc": " Voice Over Internet Protocol (VoIP) Application: Developed a web app using the MERN stack that allowed university professors to connect, schedule meetings, and manage student records.",
     "image": "newsboxandroid",
     "category": "android",
     "links": {
@@ -30,8 +30,8 @@
     }
   },
   {
-    "name": "Face-Recogination-Attendance-App",
-    "desc": "Developed an advanced attendance system using facial recognition to streamline the attendance process for the university, eliminating inefficiencies of traditional methods like biometrics and RFID. ",
+    "name": "Face-Recogination-App",
+    "desc": "Face-Recogination-Attendance-App: Developed an advanced attendance system using facial recognition to streamline the attendance process for the university, eliminating inefficiencies of traditional methods like biometrics and RFID. ",
     "image": "weatherlyandroid",
     "category": "android",
     "links": {
