@@ -641,7 +641,7 @@ header .navbar ul li a:hover {
 
 
 /* Publication section starts*/
-/* education section starts */
+
 .publications {
   background: (255, 255, 255);
   min-height: 80vh;
@@ -717,7 +717,8 @@ header .navbar ul li a:hover {
 
 }
 
-/* education media queries starts*/
+/* Publications media queries starts*/
+
 @media screen and (max-width: 600px) {
   .publications .box-container .box {
     flex-direction: column;
@@ -746,7 +747,7 @@ header .navbar ul li a:hover {
   }
 }
 
-/* Publication buttons start */
+/* Publication buttons style start */
 
 .publications .btns-box .btns {
   display: flex;
@@ -803,9 +804,11 @@ header .navbar ul li a:hover {
 .publications .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* Publication buttons ends*/
+/* Publication buttons style ends*/
 
 /* Publication section ends*/
+
+/* PUBLICATION ENDS */
 
 
 

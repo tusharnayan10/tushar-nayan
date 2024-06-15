@@ -232,7 +232,7 @@ header .navbar ul li a:hover{
 
 }
 
-/* education media queries starts*/
+/* publications media queries starts*/
 @media screen and (max-width: 600px) {
   .publications .box-container .box {
     flex-direction: column;
