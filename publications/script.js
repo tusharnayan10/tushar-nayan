@@ -17,15 +17,16 @@ $(document).ready(function () {
     });
 });
 
+// Website Title Change
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
-            $("#favicon").attr("href", "/assets/images/favicon.png");
+            document.title = "Tushar Nayan";
+            $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
+            document.title = "Tushar Nayan Portfolio";
+            $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
 
@@ -40,30 +41,26 @@ function getProjects() {
 }
 
 
-function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
-    let projectsHTML = "";
-    projects.forEach(project => {
-        projectsHTML += `
-        <div class="grid-item ${project.category}">
-        <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+function showProjects(publication) {
+    let publicationContainer = document.querySelector(".work .box-container");
+    let publicationHTML = "";
+    publication.forEach(publication => {
+        publicationHTML += `
+        <div class="box">
+        <div class="content">
+        <h3> ${publication.title} </h3>
+        <h4>${publication.conference}<span class="presentedby"> - ${publication.authors} </span> </h4>
+        <div class="btns-box">
+            <div class="btns">
+            <a href="${publication.links.paper}"" class="btn" target="_blank"><i class="fas fa-eye"></i> Paper</a>
+            <a href="${publication.links.code}"" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
+
       </div>
-    </div>
     </div>`
     });
-    projectsContainer.innerHTML = projectsHTML;
+    publicationContainer.innerHTML = publicationHTML;
 
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {

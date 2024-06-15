@@ -330,7 +330,7 @@ header .navbar ul li a:hover {
     margin: 4rem 0;
   }
   .socials {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
   .home .image img {
     margin-top: -10rem;
@@ -643,7 +643,7 @@ header .navbar ul li a:hover {
 /* Publication section starts*/
 /* education section starts */
 .publications {
-  background: linear-gradient(to bottom, #F1F1F1, #EEEEEE);
+  background: (255, 255, 255);
   min-height: 80vh;
 }
 
@@ -668,7 +668,7 @@ header .navbar ul li a:hover {
   background: rgb(252, 252, 252);
 }
 .publications .box-container .box:hover {
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .publications .box-container .box .image {
@@ -685,9 +685,9 @@ header .navbar ul li a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 1.2rem;
+  padding: 1rem;
   flex-wrap: wrap;
-  flex: 1 1 70rem;
+  flex: 1 1 10rem;
 }
 .publications .box-container .box .content h3 {
   font-size: 2rem;
@@ -697,12 +697,12 @@ header .navbar ul li a:hover {
   margin-left: 1rem;
 }
 .publications .box-container .box .content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 1rem;
   text-align: left;
 }
 .publications h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgb(34, 109, 0);
   text-align: left;
   margin-left: 1rem;
@@ -745,6 +745,66 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
   }
 }
+
+/* Publication buttons start */
+
+.publications .btns-box .btns {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.publications .btns-box .btns .btn {
+  line-height: 0;
+  display: inline;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgb(12, 12, 12);
+  margin-right: 2rem;
+}
+.publications .btns-box .btns .btn:hover {
+  background: #310ae0f5;
+}
+.publications .viewall {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.publications .viewall .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.5s;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #000;
+  text-align: center;
+}
+.publications .viewall .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: "Nunito", sans-serif;
+}
+.publications .viewall .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.publications .viewall .btn:hover {
+  background: #fff;
+  color: #000;
+}
+.publications .viewall .btn:hover i {
+  transform: translateX(5px);
+}
+/* Publication buttons ends*/
+
 /* Publication section ends*/
 
 
