@@ -159,6 +159,7 @@ header .navbar ul li a:hover{
 /* education section starts */
 .publications {
   background: (255, 255, 255);
+  color: black;
   min-height: 80vh;
 }
 

@@ -32,7 +32,7 @@ document.addEventListener('visibilitychange',
 
 
 // fetch projects start
-function getProjects() {
+function getPublication() {
     return fetch("publication.json")
         .then(response => response.json())
         .then(data => {
@@ -41,7 +41,7 @@ function getProjects() {
 }
 
 
-function showProjects(publication) {
+function showPublication(publication) {
     let publicationContainer = document.querySelector(".publications .box-container");
     let publicationHTML = "";
     publication.forEach(publication => {
@@ -97,8 +97,8 @@ function showProjects(publication) {
     });
 }
 
-getProjects().then(data => {
-    showProjects(data);
+getPublication().then(data => {
+    showPublication(data);
 })
 // fetch projects end
 
