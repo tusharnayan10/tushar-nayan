@@ -62,7 +62,7 @@
   {
     "name": "Research Wikipedia",
     "desc": "Free search engine for academics, open content online encyclopedia. I have utilized multiple APIs that provide copyright-free images for download.",
-    "image": "search-app-react",
+    "image": "webviewapp",
     "category": "mern",
     "links": {
       "view": "https://github.com/tusharnayan10/widgets-react-app",
