@@ -193,15 +193,16 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 //}
 
 // Start of Tawk.to Live Chat
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/66686b67981b6c56477bfa1a/1i03u741l';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+
+//          var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+//          (function(){
+//          var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+//          s1.async=true;
+//          s1.src='https://embed.tawk.to/66686b67981b6c56477bfa1a/1i03u741l';
+//          s1.charset='UTF-8';
+//          s1.setAttribute('crossorigin','*');
+//          s0.parentNode.insertBefore(s1,s0);
+//          })();
 // End of Tawk.to Live Chat
 
 
@@ -218,13 +219,13 @@ srtop.reveal('.home .content h3', { delay: 200 });
 srtop.reveal('.home .content p', { delay: 200 });
 srtop.reveal('.home .content .btn', { delay: 200 });
 
-srtop.reveal('.home .image', { delay: 400 });
-srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
+//srtop.reveal('.home .image', { delay: 400 });
+//srtop.reveal('.home .linkedin', { interval: 600 });
+//srtop.reveal('.home .github', { interval: 800 });
+//srtop.reveal('.home .twitter', { interval: 1000 });
+//srtop.reveal('.home .telegram', { interval: 600 });
+//srtop.reveal('.home .instagram', { interval: 600 });
+//srtop.reveal('.home .dev', { interval: 600 });
 
 /* SCROLL ABOUT */
 srtop.reveal('.about .content h3', { delay: 200 });
