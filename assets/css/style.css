@@ -842,8 +842,8 @@ header .navbar ul li a:hover {
 }
 .news .box-container .box .content h3 {
   font-size: 2rem;
-  color: #012970;
-  font-weight: 600;
+  /* color: #012970; */
+  color: #000;
   text-align: left;
   margin-left: 1rem;
 }
