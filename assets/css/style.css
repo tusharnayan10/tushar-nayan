@@ -679,7 +679,7 @@ header .navbar ul li a:hover {
 */
 
 .publications .box-container .box .image {
-  flex: 1 1 20rem;
+  flex: 1 1 5rem;
   width: 100%;
 }
 .publications .box-container .box img {
@@ -694,7 +694,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
-  flex: 1 1 10rem;
+  flex: 1 1 5rem;
 }
 .publications .box-container .box .content h3 {
   font-size: 2rem;
@@ -838,22 +838,16 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex: 1 1 10rem;
+  flex: 1 1 5rem;
 }
 .news .box-container .box .content h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* color: #012970; */
   color: #000;
   text-align: left;
   margin-left: 1rem;
 }
-.news .presentedby{
-  font-size: 1rem;
-  color: black;
-  text-align: left;
-  font-family: "Nunito", sans-serif;
 
-}
 
 /* News media queries starts*/
 
