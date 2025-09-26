@@ -73,7 +73,7 @@ document.addEventListener('visibilitychange',
 // Here typing text function
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Cybersecurity", "Machine Learning (ML)", "System Security", "Cyber-Physical Systems (CPS)", "Web development"],
+    strings: ["Cybersecurity", "Machine Learning", "AI security", " AI with Trusted Hardware ", "Software Security"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
