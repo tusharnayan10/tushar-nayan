@@ -73,7 +73,7 @@ document.addEventListener('visibilitychange',
 // Here typing text function
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Cybersecurity", "Machine Learning", "AI security", " AI with Trusted Hardware ", "Software Security"],
+    strings: ["Machine Learning", "Model security", " AI with Trusted Hardware ", "Software Security"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -138,7 +138,7 @@ function showProjects(projects) {
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
         origin: 'top',
-        distance: '80px',
+        distance: '20px',
         duration: 1000,
         reset: true
     });
@@ -209,7 +209,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '20px',
     duration: 1000,
     reset: true
 });
